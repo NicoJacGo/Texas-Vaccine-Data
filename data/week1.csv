@@ -1,4 +1,4 @@
-Provider_Name,City,County,Number of Doses
+Provider_Name,City,County,Doses_W1
 BaylorScottandWhiteMedicalCenter-Temple,Temple,BELL,"3,900"
 San Antonio State Hospital,San Antonio,BEXAR,975
 North Central Baptist Hospital,San Antonio,BEXAR,975
@@ -109,4 +109,3 @@ United Regional Health Care System,Wichita Falls,WICHITA,975
 Round Rock Medical Center,Round Rock,WILLIAMSON,975
 Baylor Scott White Health MC Round Rock,Round Rock,WILLIAMSON,975
 Wise Health System,Decatur,WISE,975
-,,,

@@ -1,7 +1,6 @@
 Provider Name,Address,City,County,"Pfizer
 Doses","Moderna
-Doses","Total
-Doses"
+Doses",Doses_W5
 Bell County Public Health District,509 S 9th St,Temple,BELL,3900,0,3900
 San Antonio Metro Health District,210 N Mel Waiters Way,San Antonio,BEXAR,0,9000,9000
 University Health System,4502 Medical Dr,San Antonio,BEXAR,10725,0,10725
