@@ -24,3 +24,7 @@ We intend on making this web application available to the general populace, givi
 ## Acknowledgments
 
 * [Texas DSHS](https://dshs.texas.gov/)
+
+## Contributors 
+- Nicolas Jacobs
+- Hanad Hassan
