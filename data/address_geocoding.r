@@ -9,12 +9,12 @@ library(magrittr)
 library(cluster)
 library(factoextra)
 library(tidyverse)
-
+library(leaflet)
 register_google(key="AIzaSyAeE5cLUMqx6kQgHdNrC8QM85RjLhBTi-k")
 
 
 
-df <- read_csv("data/aggregate.csv")
+df <- read_csv("aggregate.csv")
 
 df$lon <- 0
 df$lat <- 0
@@ -28,7 +28,7 @@ for(i in 1:nrow(df))
     df$lat[i] <- as.numeric(result[2])
     #df$geoAddress[i] <- as.character(result[3])
   } else{
-    result <- geocode(df$Address[i], output = "latlona", source = "google")
+    result <- geocode(paste(df$Address[i], df$City[i], sep = " "), output = "latlona", source = "google")
     df$lon[i] <- as.numeric(result[1])
     df$lat[i] <- as.numeric(result[2])
     #df$geoAddress[i] <- as.character(result[3])
@@ -36,5 +36,12 @@ for(i in 1:nrow(df))
 }
 
 
-write.csv(df,"new_aggregate.csv", row.names = FALSE)
+#write.csv(df,"new_aggregate.csv", row.names = FALSE)
+
+df
+leafMap <- df %>%
+  leaflet() %>% 
+  addTiles() %>%
+  addMarkers(~lon, ~lat)
+leafMap
 
