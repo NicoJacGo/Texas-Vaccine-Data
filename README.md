@@ -8,7 +8,7 @@ This dataset was created to give users the ability to examine Texas' COVID vacci
 
 This datasets primary purpose is to be used in tracking, visualizing, and projecting Texas' progress in distributing vaccines within counties. The below descriptions are to be used *only* on *aggregate.csv*.
 
-spend_all: Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in all merchant category codes (MCC), 7 day moving average.
+`spend_all`: Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in all merchant category codes (MCC), 7 day moving average.
     
 ## Intended Uses
 
