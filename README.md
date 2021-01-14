@@ -1,6 +1,6 @@
 # **Texas COVID Vaccine Data** 
 ---
-This dataset was created to give users the ability to examine Texas' COVID vaccine allotment progress, which is an ongoing process. The data will be updated on a weekly basis, and aggregated in the *aggregate.csv* file. Data is aggregated from data published by the Texas DSHS --[DSHS' website with weekly vaccine allocation reports](https://www.dshs.texas.gov/coronavirus/immunize/vaccine.aspx). The raw data, published in .pdf format, is available from the raw folder. 
+This dataset was created to give users the ability to examine Texas' COVID vaccine allotment progress, which is an ongoing process. The data will be updated on a weekly basis, and aggregated in the *aggregate.csv* file. Data is aggregated from data published by the Texas DSHS - [DSHS' website with weekly vaccine allocation reports](https://www.dshs.texas.gov/coronavirus/immunize/vaccine.aspx). The raw data, published in .pdf format, is available from the raw folder. 
 
 **NOTE**: new data is provided once weekly, on Tuesday, by the Texas DSHS and converted from pdf to csv. Specific data for vaccine by manufacturer has been omitted, but can be determined easily; allotments ending in "00" are Moderna. 
 
