@@ -1,0 +1,4 @@
+
+Texas vaccine providers data 
+
+https://genesis.soc.texas.gov/files/accessibility/vaccineprovideraccessibilitydata.csv
