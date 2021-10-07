@@ -20,11 +20,11 @@ This datasets primary purpose is to be used in tracking, visualizing, and projec
 ## Intended Uses
 
 We intend on making this web application available to the general populace, giving them the ability to easily locate the nearest location offering vaccines, with the given weekly vaccine allotment and previous weekly data, along with aggregate weekly allotment data.
-* [Web application repository](https://dshs.texas.gov/)
+* [Web application code repository](https://github.com/NicoJacGo/texas-vaccine-tracker)
 
 ## Acknowledgments
 
-* [Texas DSHS](https://github.com/NicoJacGo/texas-vaccine-tracker)
+* [Texas DSHS](https://dshs.texas.gov/)
 
 ## Contributors 
 - Nicolas Jacobs
